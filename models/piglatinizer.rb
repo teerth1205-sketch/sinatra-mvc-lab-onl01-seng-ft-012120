@@ -12,7 +12,7 @@ def piglatinize(text)
   arr2 << pig_latin(w)
   end 
   new = arr2.join(" ")
-  binding.pry
+  
 end 
     
     def pig_latin(word)
