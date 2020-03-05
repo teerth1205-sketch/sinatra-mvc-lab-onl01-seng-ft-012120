@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end 
   
   post '/piglatinize' do 
-    
+    @new = params[""] 
     erb :pig
   end 
 end
