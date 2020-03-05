@@ -6,6 +6,7 @@ class App < Sinatra::Base
   end 
   
   post '/piglatinize' do 
+    @phrase = 
     erb :pig
   end 
 end
