@@ -5,9 +5,9 @@ class  PigLatinizer
   
   
 def piglatinize(text)
-  @text = text
+   text
   arr2 = []
-  arr1  = @text.split(" ")
+  arr1  = text.split(" ")
   arr1.map do |w|
   arr2 << pig_latin(w)
   end 
@@ -32,8 +32,8 @@ end
 
 
 def vowel?(letter)
-    letter.downcase
-    letter == "o" || letter == "e" || letter == "a" || letter == "i" || letter == "u"
+    down = letter.downcase
+    down == "o" || down == "e" ||   down == "a" ||   down == "i" ||   down == "u"
 end
       
 end 
